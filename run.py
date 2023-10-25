@@ -29,8 +29,8 @@ def main():
     except:
         print('Error fmpeg')
 
-# Ренейм по последнему добавленному файлу
-    list_of_files = glob.glob('Z://Dev/linkConverter/*')
+# Ренейм по последнему добавленному файлу в МОЕЙ директории
+    list_of_files = glob.glob('Z://Dev/linkConverter/*') # Change this path
     latest_file = max(list_of_files, key=os.path.getctime)
     print(latest_file)
     filename = os.path.splitext(latest_file)[0]
