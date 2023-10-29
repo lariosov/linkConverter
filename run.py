@@ -14,10 +14,10 @@ def lobby():
 def main():
     dwn_options = {
 # Указываем формат, у меня он другим скачивается, поэтому делаю ренейм
-        'format': 'mp3/bestaudio/best',
+        'format': 'm4a/bestaudio/best',
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',
-            'preferredcodec': 'mp3',
+            'preferredcodec': 'm4a',
         }]
     }
 
