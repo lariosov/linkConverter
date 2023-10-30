@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+#All downloads
+*.mp3
+*.mp4
+*.m4a
+
 # Distribution / packaging
 .Python
 build/
